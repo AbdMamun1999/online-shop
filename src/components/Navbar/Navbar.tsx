@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes ,FaSearch} from "react-icons/fa";
 import { motion } from "framer-motion";
+import logo from "../../images/logos/logo.png"
 
 // type Props = {}
 
@@ -13,7 +14,7 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold">Logo</h2>
+              <img src={logo} alt="" width="150" height="50"/>
             </a>
             <div className="md:hidden">
               <button
